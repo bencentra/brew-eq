@@ -1,0 +1,29 @@
+{
+  "name": "brew-eq",
+  "version": "1.0.0",
+  "description": "Brewing equations and calculations for JavaScript. From \"Designing Great Beers\" by Ray Daniels.",
+  "main": "formulas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "rm -rf doc/ && jsdoc src/ -d doc/ -r README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencentra/brew-eq.git"
+  },
+  "keywords": [
+    "brew",
+    "eq",
+    "beer",
+    "homebrewing"
+  ],
+  "author": "Ben Centra <blcentra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencentra/brew-eq/issues"
+  },
+  "homepage": "https://github.com/bencentra/brew-eq#readme",
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
