@@ -17,6 +17,15 @@ module.exports = {
     return (SG - 1) * 1000;
   },
 
+  /**
+   * Convert from gravity units (GU's) to a specific gravity
+   * @param {number} GU e.g. 52 GU
+   * @return {number} e.g. 1.052
+   */
+  fromGU(GU) {
+    return (GU / 1000) + 1;
+  },
+
   // ==============================
   // Calculating the mash bill
   // ==============================
