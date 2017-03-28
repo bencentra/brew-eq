@@ -129,8 +129,8 @@ module.exports = {
 
   /**
    * Calculate the rate of evaporation for a boil
-   * @param {number} evaporationPerHour estimated rate, default of 5%
    * @param {number} boilHours e.g. 1.5 hours
+   * @param {number} evaporationPerHour estimated rate, default of 5%
    * @return {number} e.g. 0.925
    */
   evaporationRate(boilHours = 1, evaporationPerHour = 0.05) {
