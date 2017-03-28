@@ -65,7 +65,7 @@ module.exports = {
   // ==============================
 
   /**
-   * 7.1 - SRM Values and Beer Color
+   * 7.1 - SRM Values and Beer Color (in SRM)
    */
   BEER_COLOR: {
     'very pale': {
@@ -115,6 +115,173 @@ module.exports = {
     'black (opaque)': {
       low: 40,
       high: 50
+    }
+  },
+
+  // ==============================
+  // Hops and Hops Bitterness
+  // ==============================
+
+  /**
+   * 9.2 - Common Hop Varieties and Their Typical Alpha Acid Levels (in percent)
+   */
+  ALPHA_ACID: {
+    'crystal': {
+      low: 2,
+      high: 4.5,
+    },
+    'czech saaz':{
+      low: 3,
+      high: 4.5
+    },
+    'polish lublin': {
+      low: 3,
+      high: 4.5
+    },
+    'french strisselspalt': {
+      low: 3,
+      high: 5
+    },
+    'liberty': {
+      low: 3,
+      high: 5
+    },
+    'german hallertau hersbruck': {
+      low: 3,
+      high: 5.5
+    },
+    'spalt (u.s.)': {
+      low: 3,
+      high: 6
+    },
+    'german tettnanger': {
+      low: 3.5,
+      high: 5.5
+    },
+    'german hallertau mittelfruh': {
+      low: 3.5,
+      high: 5.5
+    },
+    'hallertau (u.s.)': {
+      low: 3.5,
+      high: 5.5
+    },
+    'hersbrucker (u.s.)': {
+      low: 3.5,
+      high: 5.5
+    },
+    'tettnanger (u.s.)': {
+      low: 4,
+      high: 5
+    },
+    'english east kent golding': {
+      low: 4,
+      high: 5.5
+    },
+    'english fuggle': {
+      low: 4,
+      high: 5.5
+    },
+    'fuggle': {
+      low: 4,
+      high: 5.5
+    },
+    'german spalt': {
+      low: 4,
+      high: 5.5
+    },
+    'german spalt select': {
+      low: 4,
+      high: 6
+    },
+    'willamette': {
+      low: 4,
+      high: 6
+    },
+    'saaz (u.s.)': 4.25,
+    'slovene styrian golding': {
+      low: 4.5,
+      high: 6
+    },
+    'cascade': {
+      low: 4.5,
+      high: 7
+    },
+    'huller bitterer': {
+      low: 4.5,
+      high: 7
+    },
+    'german hallertau tradition': {
+      low: 5,
+      high: 7
+    },
+    'english progress': {
+      low: 5,
+      high: 7.5
+    },
+    'mt. hood': {
+      low: 5,
+      high: 8
+    },
+    'brewer\'s gold': {
+      low: 5.5,
+      high: 8.5
+    },
+    'cluster': {
+      low: 5.5,
+      high: 8.5
+    },
+    'bullion': {
+      low: 6,
+      high: 9
+    },
+    'english wye challenger': {
+      low: 6.5,
+      high: 8.5
+    },
+    'perle': {
+      low: 7,
+      high: 9.5
+    },
+    'australian pride of ringwood': {
+      low: 7,
+      high: 10
+    },
+    'hallertau northern brewer': {
+      low: 7,
+      high: 10
+    },
+    'super styrians': {
+      low: 8,
+      high: 10
+    },
+    'centennial': {
+      low: 8,
+      high: 10
+    },
+    'english wye target': {
+      low: 9.5,
+      high: 11.5
+    },
+    'eroica': {
+      low: 9.5,
+      high: 13
+    },
+    'chinook': {
+      low: 12,
+      high: 14
+    },
+    'galena': {
+      low: 12,
+      high: 14
+    },
+    'nugget': {
+      low: 12,
+      high: 14
+    },
+    'columbus': {
+      low: 14,
+      high: 16
     }
   }
 
